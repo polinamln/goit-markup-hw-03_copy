@@ -1,0 +1,212 @@
+
+/* ~-----------------COLORS------------------ */
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navyblue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --lightslate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navyblue-modal: rgba(46, 47, 66, 0.40);
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+/* &-----------------STUDIO------------------ */
+
+/* ~-----------------HEADER------------------ */
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: var(--white);
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--iris);
+    text-decoration: none;
+}
+
+.logo-accent{
+    color:var(--navyblue)
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: var(--navyblue);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.navigation a:hover{
+    color: var(--ocean);
+}
+.navigation a:focus{
+    color: var(--ocean);
+}
+
+.address{
+    font-style: normal;
+}
+
+.contacts a{
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts a:focus{
+    color: var(--ocean);
+}
+.contacts a:hover {
+    color: var(--ocean);
+}
+
+/* ~-----------------MAIN------------------ */
+
+.studio-first-section{
+    background-color: var(--navyblue);
+}
+
+.studio-first-title{
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.studio-first-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.studio-first-button:hover{
+   background-color: #404BBF 
+}
+
+.studio-first-button:focus {
+    background-color: #404BBF
+}
+
+.studio-second-title{
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.studio-second-p{
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.studio-third-section{
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.studio-fourth-section{
+    background-color:#F4F4FD;
+}
+
+.studio-fourth-title{
+    color: var(--navyblue, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.studio-fourth-list{
+    background-color: #FFFFFF;
+
+}
+
+/* ~-----------------FOOTER------------------ */
+
+.studio-footer{
+    background-color: var(--grey);
+}
+
+.logo-accent-footer{
+    color: #f4f4fd;
+}
+.footer-p{
+    color: var(--cloud, #F4F4FD);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* &-----------------PORTFOLIO------------------ */
+
+/* ~-----------------MAIN------------------ */
+
+.portfolio-button{
+    font-family: "Roboto", sans-serif;
+    color: var(--iris, #4D5AE5);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background: var(--cloud, #F4F4FD);
+    cursor: pointer;
+}
+
+.portfolio-button:hover{
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+.portfolio-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+ 
+
+.first-portfolio-title{
+    color: var(--navyblue, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+/* ~-----------------FOOTER------------------ */
